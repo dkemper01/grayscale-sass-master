@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>WURFL - An Interactive Presentation</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+     <!-- Custom CSS -->
+    <link href="styles/main.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Begin</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#wire-up">Wire-up</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#example">Example</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#performance">Performance</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">WURFL</h1>
+                        <p class="intro-text">&nbsp;</p>
+                        <p>
+                            <a href="#about" class="btn btn-circle page-scroll pulse wireless-device">
+                                <i class="fa fa-tablet"></i>
+                            </a>
+                            <div class="rounded-arc-top">
+                                <div class="rounded big pill hide-me-middle">
+                                    <img src="images/html5-css3.png" class="img-responsive-ninety margin-top-ten" />
+                                </div>
+                            </div>
+                            <div class="rounded-arc-bottom">
+                                <div class="rounded big pill hide-me-middle">
+                                    <img src="images/modernizr-2-logo.png" class="img-responsive-seventy-five"/>
+                                </div>
+                            </div>
+                            <div class="rounded-arc-top-2">
+                                <div class="rounded big pill hide-me-middle">
+                                    <img src="images/rwd.png" class="img-responsive-ninety margin-top-five" />
+                                </div>
+                            </div>
+                            <div class="rounded-arc-bottom-2">
+                                <div class="rounded big pill hide-me-middle">
+                                    <img src="images/wurfl-logo-main.png" class="img-responsive-height-all" />
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About WURFL</h2>
+                <p>WURFL is a continuously updated device description repository that utilizes sophisticated parsing logic and statistical analysis to properly handle false positives and incorrect information passed by the browser.</p>
+                <p>WURFL stands for Wireless Universal Resource FiLe. It "maps HTTP request headers to the profile of the HTTP client that issued the request", (wurfl.sourceforge.net).</p>
+                <p>Scientiamobile has written a <a href="http://tools.scientiamobile.com/">publicly accessible page for testing browser and device capabilities</a> using just a query string.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="wire-up" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Wiring up WURFL</h2>
+                <p><img src="images/visual-studio-2013-logo.png"></p>    
+            </div>
+        </div>
+    </section>
+
+    <!-- Download SASS Section -->
+    <section id="example" class="content-section text-center">
+        <div class="row">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Example Usage</h2>
+                    <p><img src="images/visual-studio-2013-logo.png"></p>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="performance" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Performance</h2>
+                <p><img src="images/performance.png"></p>  
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Me</p>
+        </div>
+    </footer>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

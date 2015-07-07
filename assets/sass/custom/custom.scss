@@ -1,0 +1,181 @@
+/* greyscale overrides*/
+.intro-text {
+    height: 70px;
+}
+
+/* rounded button */
+
+.rounded {
+    font-family: Helvetica, Tahoma, Geneva, sans-serif;
+    text-decoration:none;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: bold;
+    display:inline-block;
+    width: 125px;
+    height: 70px;
+}
+
+/* rounded button sizes */
+
+.big {
+    font-size:15px;
+    line-height:1.8em;
+    padding: 4px 8px;
+}
+
+.pill {
+    
+    background-color: rgba(241, 242, 245, 0.75);
+    max-width: 120px;
+}
+
+.img-responsive-seventy-five {
+    width: 75%;
+    height: auto;
+}
+
+.img-responsive-ninety {
+    width: 90%;
+    height: auto;
+}
+
+.img-responsive-height-all {
+    width: auto;
+    height: 100%;
+}
+
+.margin-top-five {
+    margin-top: 5px;
+}
+
+.margin-top-ten {
+    margin-top: 10px;
+}
+
+/* start animation related styles */
+
+.hide-me-middle {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -59px;
+    transform: scale(0);
+    opacity: 0;
+    transition: opacity 2s ease;
+    text-align: center;
+}
+
+.show-me-animated-top {
+
+    -webkit-animation-name: curve-up;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+
+    .pill {
+
+        opacity: 1.0;
+        -webkit-animation-name: slide-right;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-fill-mode: forwards;
+    }
+}
+
+.show-me-animated-bottom {
+
+    -webkit-animation-name: curve-down;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+
+    .pill {
+
+        opacity: 1.0;
+        -webkit-animation-name: slide-left;
+        -webkit-animation-duration: 2s; 
+        -webkit-animation-fill-mode: forwards;
+    }
+}
+
+.show-me-animated-top-2 {
+
+    -webkit-animation-name: curve-up;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+
+    .pill {
+
+        opacity: 1.0;
+        -webkit-animation-name: slide-left;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-fill-mode: forwards;
+    }
+}
+
+.show-me-animated-bottom-2 {
+
+    -webkit-animation-name: curve-down;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+
+    .pill {
+
+        opacity: 1.0;
+        -webkit-animation-name: slide-right; 
+        -webkit-animation-duration: 2s;
+        -webkit-animation-fill-mode: forwards;
+    }
+}
+
+@-webkit-keyframes slide-right {
+
+    0% {
+        transform: translateX(0px) scale(0);
+    }
+
+    45% {
+        transform: translateX(120px) scale(0.50);
+    }
+
+    100% {
+        transform: translateX(0px) scale(1.0);
+    }
+
+}
+
+@-webkit-keyframes slide-left {
+
+    0% {
+        transform: translateX(0px) scale(0);
+    }
+
+    45% {
+        transform: translateX(-120px) scale(0.50);
+    }
+
+    100% {
+        transform: translateX(0px) scale(1.0);
+    }
+
+}
+
+@-webkit-keyframes curve-up {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-150px);
+    }
+
+}
+
+@-webkit-keyframes curve-down {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(150px);
+    }
+
+}
