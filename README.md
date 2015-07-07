@@ -1,7 +1,6 @@
-I do not take credit, for the designing of this template!
 
-The original version can be found at [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
-
+This is a WURFL presentation created from the popular grayscale bootstrap template.  I did not create the grayscale template.  This is a derived work from the repo of same name. 
+ 
 [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
 
 ## What's different?
